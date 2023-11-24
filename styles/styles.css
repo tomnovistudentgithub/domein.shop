@@ -40,6 +40,14 @@ body {
     font-weight: 600;
 }
 
+a {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 /*////////////////////////
     3. Areas
@@ -114,32 +122,102 @@ font-size: 20px;
     margin-bottom:50px;
 }
 
-
-/*///////////// 3.3 Support /////////////*/
-
-section img {
-    width: 100%;
-    border-radius: 10px
-}
-
-section p {
-    font-size: 13px;
+.testimonial blockquote {
+  background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 80px 200px;
+    border-radius: 10px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 1.2;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: left;
+    line-height: 1.5;
+    font-size: 12px;
+    position: relative;
 }
 
-.button2 {
-    border-radius: 20px;
-    padding: 10px 20px;
+.testimonial blockquote + blockquote {
+    margin-top: 35px;
+}
+
+.pic-author-name {
+    position: absolute;
+    bottom: 10px;
+    left:30%;
+    display: flex;
+
 
 }
 
+.pic-author-name img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
+    bottom:8px;
+    left: -75px;
+    position: absolute;
+}
 
-/*///////////// 3.4 Faq /////////////*/
+    .quote {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*///////////// 3.3 Support /////////////*/
+
+    section img {
+        width: 100%;
+        border-radius: 10px
+    }
+
+    section p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+
+    .button2 {
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #1C2B32;
+        padding: 10px 20px;
+        display: block;
+    }
 
 
+    /*///////////// 3.4 Faq /////////////*/
 
-/*///////////// 3.5 Footer /////////////*/
+    .q-and-a summary {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .q-and-a p {
+        background-color: #899CA0;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+
+    }
+
+    /*///////////// 3.5 Footer /////////////*/
+
+    #footer {
+        background-color: #1C2B32;
+        color: white;
+        font-weight: lighter;
+        font-size: small;
+        padding: 25px 0px;
+        text-align: center;
+    }
