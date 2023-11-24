@@ -116,4 +116,5 @@ Oké, terug naar onze eerste section ("Wat klanten zeggen over ons");
 > Copyright © 2022, all rights reserved.
 #   d o m e i n s h o p  
  #   d o m e i n s h o p  
+ #   d o m e i n . s h o p  
  
